@@ -5,7 +5,7 @@ author:
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: jekyll blogs
+description: Blog
 
 # Build settings
 
@@ -47,7 +47,7 @@ minima:
   # solarized-light    Light variant of solarized color scheme.
   # solarized-dark     Dark variant of solarized color scheme.
   # solarized          Adaptive skin for solarized color scheme skins.
-  skin: dark
+  skin: classic
 
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023)

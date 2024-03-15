@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Gitlab-ce in Docker
 ---
-
-# Gitlab-ce in Docker
 
 容器第一次安装启动需要比较长的时间, 我的机器大概用了12分钟左右, 需要耐心等待。
 
