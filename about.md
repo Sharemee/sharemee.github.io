@@ -92,3 +92,5 @@ B公司: 南昌, 医疗行业, 医疗科技有限公司
 - 更博客并同步更新至B站
 - 获得架构师资格
 - Avalonia / .NET MAUI
+- 微信开发
+- IdentityServer4
