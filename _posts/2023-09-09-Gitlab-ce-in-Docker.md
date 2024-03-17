@@ -25,12 +25,12 @@ gitlab 共使用3个端口, 443端口看情况可以不映射:
 3. 仓库界面显示的 Clone 地址是不带端口号的,
    映射了其它端口的需要自己改下地址把端口号加上
    - http: <http://localhost:5080/user/repo.git>
-   - ssh: <ssh://localhost:5022/user/repo.git>
+   - ssh: &nbsp;ssh://localhost:5022/user/repo.git
 
 ### 1. 拉取官方的镜像
 
 ```powershell
-# gitlab-ce: ce 表示社区版, 免费的
+# gitlab-ce: ce 表示社区版
 docker pull gitlab/gitlab-ce
 ```
 
