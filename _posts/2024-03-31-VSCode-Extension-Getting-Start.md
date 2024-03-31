@@ -1,7 +1,6 @@
 ---
 layout: post
-title: VSCode Extension Development(1)
-description: VSCode Extension Development getting start.
+title: VSCode Extension Development Getting Start
 ---
 
 ## 搭建VSCode 扩展开发环境
