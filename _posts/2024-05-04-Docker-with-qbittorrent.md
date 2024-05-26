@@ -10,7 +10,8 @@ title: Docker with qbittorrent
 docker pull lscr.io/linuxserver/qbittorrent:latest
 
 # 创建并启动容器
-docker run -d `
+docker run `
+--detach `
 --name=qbittorrent `
 --env PUID=1000 `
 --env PGID=1000 `
