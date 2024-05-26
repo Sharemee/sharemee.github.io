@@ -27,9 +27,23 @@ yo code
 
 如此就完成了扩展项目的搭建, 接下来就是开发扩展内容了.
 
-具体扩展开发过程待续...
+## 具体扩展开发
 
-扩展开发完成后发布到官方插件市场待续...
+待续...
+
+## Build & Publish
+
+`vsce` 是 `Visual Studio Code Extensions` 的缩写，是一个用于打包、发布和管理VS Code扩展的命令行工具:
+
+```powershell
+npm install -g @vscode/vsce
+```
+
+打包到本地:
+
+```powershell
+vsce package [-o ./dist]
+```
 
 ## 官方文档
 
