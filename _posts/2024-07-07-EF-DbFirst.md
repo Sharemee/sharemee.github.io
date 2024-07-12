@@ -179,13 +179,4 @@ Entity Framework Core: <https://learn.microsoft.com/zh-cn/ef/core>
 Scaffold-DbContext 'Name=ConnectionStrings:SqlServer' Microsoft.EntityFrameworkCore.SqlServer -Context BlogDbContext -ContextDir ./ -OutputDir Entities -Force
 ```
 
-```powershell
-dotnet ef dbcontext scaffold `
-"Data Source=localhost;User ID=sa;Password=Aa123456;Initial Catalog=Blog;Connect Timeout=10;Encrypt=False;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False" `
-Microsoft.EntityFrameworkCore.SqlServer `
---context-dir ./ `
---output-dir Entities `
---context BlogDbContext `
---no-onconfiguring `
---force
-```
+
